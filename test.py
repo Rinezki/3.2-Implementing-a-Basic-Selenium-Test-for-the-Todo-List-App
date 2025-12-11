@@ -44,8 +44,11 @@ try:
     important_add_button.click()
     logging.info("Added important task: Pay bills")
 
+    tasks = driver.find_elements(By.CSS_SELECTOR, "#taskList li")
+    logging.info(f"Regular tasks:" + ", ".join([t.text for t in tasks]))
+
     important_tasks = driver.find_elements(By.CSS_SELECTOR, "#importantTaskList li")
-    logging.info(f"Important tasks:", {[t.text for t in important_tasks]})
+    logging.info("Important tasks:" + ", ".join([t.text for t in important_tasks]))
 
 except Exception as e:
     logging.error(f"Exception occurred: {e}")

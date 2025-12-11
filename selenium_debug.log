@@ -5,3 +5,19 @@
 2025-12-11 19:01:25,810 [ERROR] Exception occurred: unhashable type: 'list'
 2025-12-11 19:01:25,858 [INFO] Saved screenshot as debug.png for debugging
 2025-12-11 19:01:29,965 [INFO] Closed browser and finished Selenium test
+2025-12-11 19:10:04,241 [INFO] Starting Selenium test...
+2025-12-11 19:10:05,462 [INFO] Opened todo list in browser
+2025-12-11 19:10:05,585 [INFO] added regular task: buy groceries
+2025-12-11 19:10:05,673 [INFO] Added important task: Pay bills
+2025-12-11 19:10:05,690 [INFO] Regular tasks: ['Buy groceries\nDelete']
+2025-12-11 19:10:05,697 [ERROR] Exception occurred: unhashable type: 'list'
+2025-12-11 19:10:05,735 [INFO] Saved screenshot as debug.png for debugging
+2025-12-11 19:10:09,842 [INFO] Closed browser and finished Selenium test
+2025-12-11 19:13:01,858 [INFO] Starting Selenium test...
+2025-12-11 19:13:03,076 [INFO] Opened todo list in browser
+2025-12-11 19:13:03,193 [INFO] added regular task: buy groceries
+2025-12-11 19:13:03,305 [INFO] Added important task: Pay bills
+2025-12-11 19:13:03,321 [INFO] Regular tasks:Buy groceries
+Delete
+2025-12-11 19:13:03,328 [INFO] Important tasks:
+2025-12-11 19:13:07,436 [INFO] Closed browser and finished Selenium test
