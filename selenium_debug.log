@@ -1,0 +1,7 @@
+2025-12-11 19:01:24,166 [INFO] Starting Selenium test...
+2025-12-11 19:01:25,607 [INFO] Opened todo list in browser
+2025-12-11 19:01:25,720 [INFO] added regular task: buy groceries
+2025-12-11 19:01:25,803 [INFO] Added important task: Pay bills
+2025-12-11 19:01:25,810 [ERROR] Exception occurred: unhashable type: 'list'
+2025-12-11 19:01:25,858 [INFO] Saved screenshot as debug.png for debugging
+2025-12-11 19:01:29,965 [INFO] Closed browser and finished Selenium test
