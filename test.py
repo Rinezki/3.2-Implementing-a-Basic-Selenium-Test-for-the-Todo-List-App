@@ -7,7 +7,7 @@ import time
 driver = webdriver.Chrome()
 
 # Avaa sovellus paikallisen palvelimen kautta
-driver.get("file:///./todo-list/todo-list-app/index.html")
+driver.get("http://localhost:8000/index.html")
 
 wait = WebDriverWait(driver, 10)
 
